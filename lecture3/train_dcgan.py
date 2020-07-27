@@ -14,7 +14,7 @@ tf.flags.DEFINE_integer("c_dim", 0, "channel size of images (RBG or Gray). (defa
 tf.flags.DEFINE_integer("image_size", 0, "size 0f images (64 or 28). (default: 0)")
 tf.flags.DEFINE_integer("Z_dim", 100, "Dimensionality of noise vector (default: 100)")
 tf.flags.DEFINE_integer("dc_dim", 64, "channel size for D (default: 64)")
-tf.flags.DEFINE_integer("gc_dim", 128, "channel size for G (default: 64)")
+tf.flags.DEFINE_integer("gc_dim", 64, "channel size for G (default: 64)")
 
 tf.flags.DEFINE_float("lr", 2e-4, "Learning rate(default: 0.01)")
 tf.flags.DEFINE_float("relu_leakiness", 0.2, "relu leakiness (default: 0.2)")
