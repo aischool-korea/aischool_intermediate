@@ -8,7 +8,7 @@ from GAN_master.GAN.vanilla_gan.vanilla import GAN
 
 # Model Hyperparameters
 tf.flags.DEFINE_integer("Z_dim", 100, "Dimensionality of noise vector (default: 100)")
-tf.flags.DEFINE_integer("G_hidden_dim", 256, "Dimensionality of hidden layer (default: 100)")
+tf.flags.DEFINE_integer("G_hidden_dim", 128, "Dimensionality of hidden layer (default: 100)")
 tf.flags.DEFINE_integer("D_hidden_dim", 128, "Dimensionality of hidden layer (default: 100)")
 
 tf.flags.DEFINE_float("lr", 1e-3, "Learning rate(default: 0.01)")
